@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.sumof_arrays_using_classes</StartupObject>
+    <StartupObject>ConsoleApp1.palindrome</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
