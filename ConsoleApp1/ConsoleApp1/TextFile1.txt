@@ -1,0 +1,17 @@
+﻿abstract class test{
+PUBLIC VOID SHOW(){
+	console.write("show fucntion");
+}
+}
+
+class child:test{
+	public void display(){
+	console.write("child")
+	}
+}
+
+main(){
+	child c=new.child();
+	c.show();
+	c.display();
+}
