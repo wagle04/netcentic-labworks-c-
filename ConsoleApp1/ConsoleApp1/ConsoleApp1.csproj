@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleApp1.test_for_constrcutor__and_abstract</StartupObject>
+    <StartupObject>ConsoleApp1.sumof_arrays_using_classes</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
