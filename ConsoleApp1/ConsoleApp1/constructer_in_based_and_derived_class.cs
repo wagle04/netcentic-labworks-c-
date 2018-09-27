@@ -23,7 +23,7 @@ namespace ConsoleApp1
 
     class childforconstructor : parentforconstuctor
     {
-        public childforconstructor():base(5),base("hello")
+        public childforconstructor() : base("hello")
         {
             Console.WriteLine("Child");
         }
