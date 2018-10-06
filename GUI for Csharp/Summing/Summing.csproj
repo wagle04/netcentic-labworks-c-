@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{00A0C445-0784-4A1D-ADB0-56C0E3B70A58}</ProjectGuid>
+    <ProjectGuid>{DBEF1100-53A1-43A5-A22A-B2456C11D683}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>Summing</RootNamespace>
+    <AssemblyName>Summing</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ConsoleApp1.arraylist</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,31 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="abstractclass.cs" />
-    <Compile Include="add.cs" />
-    <Compile Include="arraylist.cs" />
-    <Compile Include="constructer_in_based_and_derived_class.cs" />
-    <Compile Include="list generic types.cs" />
-    <Compile Include="partial_test.cs" />
-    <Compile Include="constructor.cs" />
-    <Compile Include="palindrome.cs" />
-    <Compile Include="partial_test1.cs" />
-    <Compile Include="runtime_polymorphism.cs" />
-    <Compile Include="sumof_arrays.cs" />
-    <Compile Include="sumof_arrays_using_classes.cs" />
-    <Compile Include="sumof_one_dimensional_array.cs" />
-    <Compile Include="multiplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="switch case.cs" />
-    <Compile Include="test_for_constrcutor_ and_abstract_and_partial.cs" />
-    <Compile Include="using_interface.cs" />
+    <Compile Include="sum.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="TextFile1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
