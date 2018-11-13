@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="database grid view.aspx" />
     <Content Include="Error.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="login.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="database grid view.aspx.cs">
+      <DependentUpon>database grid view.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="database grid view.aspx.designer.cs">
+      <DependentUpon>database grid view.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Error.aspx.cs">
       <DependentUpon>Error.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
