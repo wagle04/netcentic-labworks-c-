@@ -69,11 +69,13 @@
   <ItemGroup>
     <Content Include="database grid view.aspx" />
     <Content Include="Error.aspx" />
+    <Content Include="formview.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
+    <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="database grid view.aspx.cs">
@@ -89,6 +91,13 @@
     </Compile>
     <Compile Include="Error.aspx.designer.cs">
       <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="formview.aspx.cs">
+      <DependentUpon>formview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="formview.aspx.designer.cs">
+      <DependentUpon>formview.aspx</DependentUpon>
     </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
